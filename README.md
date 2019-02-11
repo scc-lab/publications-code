@@ -1,2 +1,2 @@
-# publications-code
-Code of peer-reviewed publications
+# Publications-Code
+This repository contains MATALB and Simulink code to reproduce numerical simulations in our peer-reviewed publications. The code is made available as-is without any guarantees whatsoever. Every effort has been made to ensure the the code uploaded here reproduces the results presented in the linked publications; however, the authors cannot guarantee exact reproduction. If you notice any mismatch, please contact the owner of the repository. 
