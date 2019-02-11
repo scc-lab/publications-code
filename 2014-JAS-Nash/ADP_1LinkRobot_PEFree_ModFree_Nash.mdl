@@ -4595,8 +4595,8 @@ Stateflow {
       isEML		      1
       script		      "function [xHD,thetaHD,SIDConLear,SIDRank] = SysID(xH,thetaH,u1,u2,t,x,k,...\n    GammaTheta,M,fs,"
       "F,g,DY1,kTheta,model)\n%#codegen\n% This simulink block implements concurrent-learning based system\n% identific"
-      "ation using a Savitzky–Golay smoothing filter for state\n% derivative computation. \n% fs: Sampling frequency\n%"
-      " M: number of stored data points\n% F: Savitzky–Golay filter window length\n% g: Savitzky–Golay filter different"
+      "ation using a SavitzkyÂ–Golay smoothing filter for state\n% derivative computation. \n% fs: Sampling frequency\n%"
+      " M: number of stored data points\n% F: SavitzkyÂ–Golay filter window length\n% g: SavitzkyÂ–Golay filter different"
       "iation matrix\n\nglobal Q; % Data store memory for storing the values of x\nglobal U1; % Data store memory for s"
       "toring the values of u1\nglobal U2; % Data store memory for storing the values of u2\nglobal YS; % Data store me"
       "mory for storing the values of Y,\n           % made of Y' matrices stacked in a row\nglobal xDmGUS; % Data stor"
