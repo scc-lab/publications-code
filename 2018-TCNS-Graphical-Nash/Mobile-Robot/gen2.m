@@ -1,0 +1,32 @@
+function [ mu2,scrG2,scrF2,calG2,calF2,Gsig2,F2 ] = gen2( calE2,calE1,calE3,Wa2H,R2 )
+
+e1 = calE1(1:3);
+x2 = calE2(end-2:end);
+x1 = calE1(4:end);
+x3 = calE3(7:9);
+x0 = x1-e1;
+[ ~, f10 ] = gen0( x0 );
+g2=geng(x2);
+g1=geng(x1);
+g3=geng(x3);
+g21 = eye(2);
+g23 = eye(2);
+g31 = eye(2);
+f21 = [0;0];
+f23 = [0;0];
+f31 = [0;0];
+% u31 = f31+g31*u1;
+scrLg2=[2*eye(2) -g21 -g23;zeros(2) eye(2) zeros(2);zeros(2) -g31 eye(2)];
+scrLg2inv=[0.5*eye(2) eye(2) 0.5*eye(2);zeros(2) eye(2) zeros(2);zeros(2) eye(2) eye(2)];
+scrLg22=[0.5*eye(2) eye(2) 0.5*eye(2)];
+scrLg21=[zeros(2) eye(2) zeros(2)];
+scrLg23=[zeros(2) eye(2) eye(2)];
+F2 = [f21+f23;f10;f31];
+scrF2=2*g2*scrLg22*F2-g1*scrLg21*F2-g3*scrLg23*F2;
+scrG2=2*g2*scrLg22-g1*scrLg21-g3*scrLg23;
+calF2=g2*scrLg22*F2;
+calG2=g2*scrLg22;
+[~,sig2GRe2,sig2GRx2,~,~,~]=ADPSEMREMKNN_Basis2(calE2);         
+Gsig2=(scrG2*[eye(2);zeros(2);zeros(2)])'*sig2GRe2'+(calG2*[eye(2);zeros(2);zeros(2)])'*sig2GRx2';
+mu2=-0.5*(R2\Gsig2)*Wa2H;
+end
