@@ -1,0 +1,9 @@
+function calFHi=ADPCLNNTScalFHi(xSiC,thetaHSiC,x0,mSi,Si,NmSiC,ASi,A0Si,xDSiC,xD0SiC,t)
+	i=Si(1);
+	xi=xSiC{1}; % State of agent i
+	thetaHi=thetaHSiC{1}; % Weight of agent i
+	[sigthi,~]=ADPCLNNTSsigmatheta(i,xi,t);
+	L_gi = ADPCLNNTSLgi(Si,xSiC,xDSiC,ASi,A0Si,mSi);
+	L_giC = mat2cell(inv(L_gi),mSi);
+	FHi=ADPCLNNTSFHi(xSiC,thetaHSiC,x0,Si,NmSiC,ASi,A0Si,xDSiC,xD0SiC,t);
+	calFHi = thetaHi'*sigthi+ADPCLNNTSg(i,xi)*L_giC{1}*FHi;
