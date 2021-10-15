@@ -1,6 +1,6 @@
 # Publication Details
 
-Parikh, A.; Kamalapurkar, R.; and Dixon, W. E. [**Safe Model-Based Reinforcement Learning for Systems with Parametric Uncertainties.**](https://www.frontiersin.org/articles/10.3389/frobt.2021.733104) *Front. Robot. AI*, to appear.
+Mahmud, S M N. ; Nivison, S. A. ; Bell, Z. I. ; Kamalapurkar, R. [**Safe Model-Based Reinforcement Learning for Systems with Parametric Uncertainties.**](https://www.frontiersin.org/articles/10.3389/frobt.2021.733104) *Front. Robot. AI*, to appear.
 
 Software: MATLAB Simulink R2021a, [GPOPS II](https://www.gpops2.com/)
 
