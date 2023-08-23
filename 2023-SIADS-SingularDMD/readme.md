@@ -1,6 +1,6 @@
 # Publication Details
 
-J. A. Rosenfeld and R. Kamalapurkar [**Singular dynamic mode decomposition.**](https://epubs.siam.org/doi/10.1137/22M1475892) *SIAM J. Appl. Dyn. Syst.*, vol. 22, no. 3, pp. 2357-2381, 2023.
+J. A. Rosenfeld and R. Kamalapurkar [**Singular dynamic mode decomposition,**](https://epubs.siam.org/doi/10.1137/22M1475892) *SIAM J. Appl. Dyn. Syst.*, vol. 22, no. 3, pp. 2357-2381, 2023.
 
 Software: MATLAB R2020b or newer (needs the `pagemtimes` function introduced in R2020b)
 

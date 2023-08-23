@@ -1,6 +1,6 @@
 # Publication Details
 
-J. A. Rosenfeld, R. Kamalapurkar, L. F. Gruss, and T. T. Johnson, [**Dynamic mode decomposition for continuous time systems with the Liouville operator.**](https://link.springer.com/article/10.1007/s00332-021-09746-w) *J. Nonlinear Sci.*, vol. 32, no. 1, pp. 1-30, 2022.
+J. A. Rosenfeld, R. Kamalapurkar, L. F. Gruss, and T. T. Johnson, [**Dynamic mode decomposition for continuous time systems with the Liouville operator,**](https://link.springer.com/article/10.1007/s00332-021-09746-w) *J. Nonlinear Sci.*, vol. 32, no. 1, pp. 1-30, 2022.
 
 Software: MATLAB R2020b or newer (needs the `pagemtimes` function introduced in R2020b)
 
