@@ -1,0 +1,1 @@
+Cylinder flow example and an academic example that exhibits finite escape time solved using the kernel DMD method from M. O. Williams, C. W. Rowley, and I. G. Kevrekidis, A kernel-based method for data-driven Koopman spectral analysis, J. Comput. Dyn., 2 (2015), pp. 247–265.
