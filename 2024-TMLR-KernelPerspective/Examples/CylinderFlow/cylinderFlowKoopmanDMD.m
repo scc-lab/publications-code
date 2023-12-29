@@ -25,7 +25,7 @@ X = DATA(:,1:Length);
 Y = DATA(:,2:Length+1);
 
 %% Kernel DMD
-[~,~,~,~,dr,~] = KoopmanDMD(X,Y,K,h,l);
+[~,~,~,~,dr,~] = KoopmanDMD(X,Y,K,h);
 [~,~,~,~,drW,~] = WilliamsKDMD(X,Y,K,h);
 
 %% Plots for the paper
