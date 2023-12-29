@@ -13,6 +13,9 @@ addpath('../../lib')
 mu = 1;
 K = KernelRKHS('Gaussian',mu); 
 
+% mu = 1;
+% K = KernelRKHS('Exponential',mu); 
+
 %% Load and format data for DMD
 load([DATAPATH '/FLUIDS/CYLINDER_ALL.mat']);
 DATA = VORTALL/max(vecnorm(VORTALL)); % Using normalized vorticity data
