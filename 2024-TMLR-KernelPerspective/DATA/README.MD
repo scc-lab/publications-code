@@ -1,4 +1,4 @@
-This is a placeholder folder.
+This is a placeholder for the datasets used for the numerical experiments in the paper.
 
 To run the cylinder flow experiment, download the cylinder flow data from [the DMD book website](http://dmdbook.com/DATA.zip) and unzip the contents of DATA.zip into this folder and then run `Examples\CylinderFlow\cylinderFlowKoopmanDMD.m`.
 
