@@ -57,7 +57,7 @@ KT=KernelRKHS('Gaussian',kT);
 mu = @(x) -2*x(1,:) - 2*x(2,:);
 
 %% CLDMD
-[~,~,~,~,dr,fHat] = controlKoopmanDMD(KT,K,X,U,Y,ts,mu,l);
+[~,~,~,~,dr,fHat] = ControlKoopmanDMD(KT,K,X,U,Y,ts,mu,l);
 
 %% Indirect reconstruction
 % x0 = [2;-2];
