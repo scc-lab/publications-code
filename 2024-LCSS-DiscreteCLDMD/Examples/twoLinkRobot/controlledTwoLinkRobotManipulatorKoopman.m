@@ -64,7 +64,7 @@ KT=KernelRKHS('Exponential',kT);
 mu = @(x) cat(1, -5*x(1,:,:) - 5*x(2,:,:), -15*x(1,:,:) - 15*x(2,:,:));
 
 %% DCLDMD
-[~,~,~,~,dr,fHat] = controlKoopmanDMD(KT,K,X,U,Y,ts,mu,l);
+[~,~,~,~,dr,fHat] = ControlKoopmanDMD(KT,K,X,U,Y,ts,mu,l);
 
 %% Indirect discrete reconstruction
 t_pred = 0:0.05:6;
