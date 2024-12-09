@@ -1,6 +1,6 @@
 # Publication Details
 
-E. Gonzalez, M. Abudia, M. T. Jury, R. Kamalapurkar, and J. A. Rosenfeld [**The kernel perspective on dynamic mode decomposition,**](https://arxiv.org/abs/2106.00106), under review at TMLR.
+E. Gonzalez, M. Abudia, M. T. Jury, R. Kamalapurkar, and J. A. Rosenfeld [**The kernel perspective on dynamic mode decomposition**](https://openreview.net/forum?id=sIR8xV7hGl), *Transactions on Machine Learning Research*, issn 2835-8856, 2024.
 
 Software: MATLAB R2020b or newer (needs the `pagemtimes` function introduced in R2020b)
 
