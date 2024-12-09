@@ -1,6 +1,6 @@
 # Publication Details
 
-Z. Morrison, M. Abudia, J. A. Rosenfled, and R. Kamalapurkar, [**Dynamic Mode Decomposition of Control-Affine Nonlinear Systems using Discrete Control Liouville Operators,**](https://arxiv.org/pdf/2309.09817) * IEEE Control Syst. Lett.*, 2024, to appear.
+Z. Morrison, M. Abudia, J. A. Rosenfled, and R. Kamalapurkar, [**Dynamic Mode Decomposition of Control-Affine Nonlinear Systems using Discrete Control Liouville Operators,**](https://arxiv.org/pdf/2309.09817) * IEEE Control Syst. Lett.*, Vol. 8, pp. 79-84, 2024.
 
 Software: MATLAB R2020b or newer (needs the `pagemtimes` function introduced in R2020b)
 
