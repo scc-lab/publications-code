@@ -216,7 +216,7 @@ for i = 1:size(X_store_rank, 1)
 end
 
 z_stem_values = [];
-for i = 1:size(Z_store_rank)
+for i = 1:size(Z_store_rank,1)
     if Z_store_rank(i) == P.n*(P.n+1)/2
         z_stem_values = [z_stem_values; 1];
     else
