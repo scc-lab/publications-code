@@ -1,5 +1,6 @@
 % Code Saved 12/10/2025
 % Created by Jared Town and Rushikesh Kamalapurkar
+% Code generates data files to be plotted with LaTeX. To see MATLAB plots, uncomment plotting commands starting from line 303.
 
 rng(1) % This reproduces results in the paper, comment it out to randomize
 global dellta
