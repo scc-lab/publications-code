@@ -57,8 +57,9 @@ U = permute([ones(1,size(U,2));U],[2 1 3]);
 MU = permute([ones(1,size(MU,2));MU],[2 1 3]);
 
 % vvRKHS Gram matrix and interaction matrix - M x M
-G = sum(squeeze(K.K(X,X)).*pagemtimes(U,'none',U,'transpose'),3);
-I = sum(squeeze(K.K(X,X)).*pagemtimes(MU,'none',U,'transpose'),3);
+temp = squeeze(K.K(X,X));
+G = temp(:,:,1).*(U*U.');
+I = temp(:,:,1).*(MU*U.');
 
 % svRKHS Gram matrix and interaction matrix - M x M
 GT = KT.K(X,X);
